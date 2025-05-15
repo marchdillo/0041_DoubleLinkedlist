@@ -14,4 +14,10 @@ class doubleLinkedList
 {
 private:
     node *START;
+
+public:
+    doubleLinkedList()
+    {
+        START = NULL;
+    }
 };
